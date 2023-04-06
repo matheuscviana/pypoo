@@ -6,7 +6,7 @@ class Produto:
     self.valor = valor
   
   def __str__(self):
-    return "Produto { codigo = '%d', nome = '%s', valor = '%.2f'}" % 
+    return "Produto { codigo = '%d', nome = '%s', valor = '%.2f'}" % \
       (self.codigo, self.nome, self.valor)
 
   def __lt__(self, other):
